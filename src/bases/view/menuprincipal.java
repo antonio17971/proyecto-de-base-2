@@ -198,6 +198,7 @@ public class menuprincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
         menu_admin_tablespaces menu = new menu_admin_tablespaces();
         this.setVisible(false);
+        
         menu.setVisible(true);
     }//GEN-LAST:event_boton_admTablespacesActionPerformed
 
