@@ -25,7 +25,7 @@ public class Bases {
         
          OracleDB baseDatos = new OracleDB(); 
          baseDatos.conectar();
-         ResultSet resultados = baseDatos.consultar("SELECT * FROM PRUEVA ");        
+        /* ResultSet resultados = baseDatos.consultar("SELECT * FROM PRUEVA ");        
          if (resultados != null) {
             try {
                 System.out.println("NOMBRE       APELLIIDO        ID");
@@ -36,7 +36,7 @@ public class Bases {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }
+        }*/
         
     }
     

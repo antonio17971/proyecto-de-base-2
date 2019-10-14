@@ -26,7 +26,7 @@ public class OracleDB {
              Class.forName("oracle.jdbc.driver.OracleDriver");
             String BaseDeDatos = "jdbc:oracle:thin:@localhost:1521:xe";
             
-            conecction = DriverManager.getConnection(BaseDeDatos, "PROYECTO","root");            
+            conecction = DriverManager.getConnection(BaseDeDatos, "system","root");            
             if (conecction != null) {
                 System.out.println("Conexion exitosa!");
              } else {
